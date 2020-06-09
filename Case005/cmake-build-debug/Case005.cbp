@@ -8,92 +8,91 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ixel/Desktop/Case_005/Case005/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/ixel/Desktop/Case_005/Case005/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ixel/Desktop/Case_005/Case005/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Case005">
-				<Option output="/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Case005" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ixel/Desktop/Case_005/Case005/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Case005.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 Case005"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 Case005"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Case005/fast">
-				<Option output="/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Case005" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ixel/Desktop/Case_005/Case005/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Case005.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 Case005/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ixel/Desktop/Case_005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 Case005/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/gollo/OneDrive\ -\ Estudiantes\ ITCR/Universidad/2020\ Semestre\ I/Analisis\ de\ algoritmos/Caso\ 5/Algoritmos-Caso-005/Case005/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ixel/Desktop/Case_005/Case005/Intersection.h">
+		<Unit filename="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/Intersection.h">
 			<Option target="Case005"/>
 		</Unit>
-		<Unit filename="/home/ixel/Desktop/Case_005/Case005/Line.h">
+		<Unit filename="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/Line.h">
 			<Option target="Case005"/>
 		</Unit>
-		<Unit filename="/home/ixel/Desktop/Case_005/Case005/main.cpp">
+		<Unit filename="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/ProbabilisticAlgo.h">
 			<Option target="Case005"/>
 		</Unit>
-		<Unit filename="/home/ixel/Desktop/Case_005/Case005/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/main.cpp">
+			<Option target="Case005"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/gollo/OneDrive - Estudiantes ITCR/Universidad/2020 Semestre I/Analisis de algoritmos/Caso 5/Algoritmos-Caso-005/Case005/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

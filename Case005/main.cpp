@@ -1,6 +1,7 @@
 #include <iostream>
+#include <set>
 #include "Intersection.h"
-
+#include "ProbabilisticAlgo.h"
 int main() {
     Line *l1 = new Line(-1,-1,0,1);
     //cout<<l1->lineType<<endl;
@@ -19,7 +20,27 @@ int main() {
 
     LinesDistribution *dist = new LinesDistribution();
     dist->insertLines(lines);
-    dist->printInfo();
 
+    map<int,set<string>> *NumbersTable = new map<int,set<string>>();
+    NumbersTable->insert({0,{"HV"}});
+    NumbersTable->insert({1, {"VI"}});
+    NumbersTable->insert({2,{"HI"}});
+    NumbersTable->insert({3,{"ID"}});
+    NumbersTable->insert({4,{"HI","HV","VI"}});
+    NumbersTable->insert({5,{"HV","VD","HD"}});
+    NumbersTable->insert({6,{"ID","HI","HD"}});
+    NumbersTable->insert({7,{"HI"}});
+    NumbersTable->insert({8,{"HI","HD","ID","VI","VD"}});
+    NumbersTable->insert({9,{"ID","HD","HI"}});
+
+
+
+
+
+
+
+
+    ProbabilisticAlgo prueba = ProbabilisticAlgo(dist,NumbersTable);
+    prueba.printDistPercetage();
     return 0;
 }
