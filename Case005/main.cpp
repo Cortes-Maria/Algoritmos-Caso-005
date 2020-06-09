@@ -35,15 +35,27 @@ int main() {
     NumbersTable->insert({9,{"ID","HD","HI"}});
 
     ProbabilisticAlgo prueba = ProbabilisticAlgo(dist,NumbersTable);
-    cout<<"Intersection distribution"<<endl;
     prueba.printDistPercetage();
+    /*
     prueba.fillExistingDigits();
+    prueba.printDistPercetage();
     cout<<""<<endl;
     cout<<"Existing digits"<<endl;
-    prueba.printExistingDigits();
+    cout<<""<<endl;
+    prueba.printExistingDigits();*/
+    //prueba.fillExistingDigits();
+    //prueba.printExistingDigits();
 
+    for(int i=0;i<10;i++){
+        prueba.digitFrequency->insert({i,0});
+    }
 
-
+    for(int i=0;i<totalCorridas;i++){
+        prueba.fillExistingDigits();
+        prueba.existingDigits->clear();
+       // prueba.sumAppearance();
+    }
+    prueba.printDigitFrequency();
 
 
     return 0;

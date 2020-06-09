@@ -65,6 +65,8 @@ public:
              int  randomNumber = (rand() % 100) + 1;
              if(1<=randomNumber && randomNumber<=probability){
                  existingDigits->push_back(it.first);
+                 digitFrequency->at(it.first) +=1;//sumar a la frecuencia
+                 printDigitFrequency();
              }
         }
     }
@@ -79,6 +81,7 @@ public:
         }
         existingDigits->clear();
     }
+
     int sumProbability(set<string> pIntersection){
         int result=0;
         for(const auto & it : pIntersection){
