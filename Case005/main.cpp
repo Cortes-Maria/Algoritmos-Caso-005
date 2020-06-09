@@ -2,6 +2,7 @@
 #include <set>
 #include "Intersection.h"
 #include "ProbabilisticAlgo.h"
+#define totalCorridas 500
 int main() {
     Line *l1 = new Line(-1,-1,0,1);
     //cout<<l1->lineType<<endl;
@@ -30,17 +31,20 @@ int main() {
     NumbersTable->insert({5,{"HV","VD","HD"}});
     NumbersTable->insert({6,{"ID","HI","HD"}});
     NumbersTable->insert({7,{"HI"}});
-    NumbersTable->insert({8,{"HI","HD","ID","VI","VD"}});
+    NumbersTable->insert({8,{"HI","HD","ID"}});
     NumbersTable->insert({9,{"ID","HD","HI"}});
 
-
-
-
-
-
-
-
     ProbabilisticAlgo prueba = ProbabilisticAlgo(dist,NumbersTable);
+    cout<<"Intersection distribution"<<endl;
     prueba.printDistPercetage();
+    prueba.fillExistingDigits();
+    cout<<""<<endl;
+    cout<<"Existing digits"<<endl;
+    prueba.printExistingDigits();
+
+
+
+
+
     return 0;
 }
