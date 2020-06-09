@@ -2,7 +2,7 @@
 #include <set>
 #include "Intersection.h"
 #include "ProbabilisticAlgo.h"
-#define totalCorridas 500
+#define totalCorridas 501
 int main() {
     Line *l1 = new Line(-1,-1,0,1);
     //cout<<l1->lineType<<endl;
@@ -36,26 +36,14 @@ int main() {
 
     ProbabilisticAlgo prueba = ProbabilisticAlgo(dist,NumbersTable);
     prueba.printDistPercetage();
-    /*
+
     prueba.fillExistingDigits();
-    prueba.printDistPercetage();
     cout<<""<<endl;
     cout<<"Existing digits"<<endl;
     cout<<""<<endl;
-    prueba.printExistingDigits();*/
-    //prueba.fillExistingDigits();
-    //prueba.printExistingDigits();
+    prueba.printExistingDigits();
 
-    for(int i=0;i<10;i++){
-        prueba.digitFrequency->insert({i,0});
-    }
 
-    for(int i=0;i<totalCorridas;i++){
-        prueba.fillExistingDigits();
-        prueba.existingDigits->clear();
-       // prueba.sumAppearance();
-    }
-    prueba.printDigitFrequency();
 
 
     return 0;

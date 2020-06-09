@@ -65,8 +65,6 @@ public:
              int  randomNumber = (rand() % 100) + 1;
              if(1<=randomNumber && randomNumber<=probability){
                  existingDigits->push_back(it.first);
-                 digitFrequency->at(it.first) +=1;//sumar a la frecuencia
-                 printDigitFrequency();
              }
         }
     }
